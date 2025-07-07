@@ -5,7 +5,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    color: blue  # switch to green when needed
+    color: green  # switch to green when needed
   ports:
   - port: 80
     targetPort: 80
