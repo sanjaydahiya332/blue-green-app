@@ -8,4 +8,4 @@ spec:
     color: blue  # switch to green when needed
   ports:
   - port: 80
-    targetPort: 8080
+    targetPort: 80
