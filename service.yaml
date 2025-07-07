@@ -4,6 +4,7 @@ kind: Service
 metadata:
   name: blue-green-service
 spec:
+  type: LoadBalancer
   selector:
     color: blue  # switch to green when needed
   ports:
